@@ -9,7 +9,7 @@ const IconSwitch = ({ icon, onSwitch}) => {
 
   return (
     <span 
-      className="material-icons cursor-pointer block ml-auto text-gray-600 hover:text-gray-800"
+      className="material-icons cursor-pointer block ml-auto text-5xl text-gray-600 hover:text-gray-800"
       onClick={onSwitch}
     >
       {icon}
