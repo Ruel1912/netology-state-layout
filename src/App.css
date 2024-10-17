@@ -1,0 +1,32 @@
+.card-image,
+.list-image {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+img:is(.list-image) {
+  top: 30%;
+  left: 45%;
+}
+
+.card-button,
+.list-button {
+  border: 1px solid #ef4444;
+  max-height: 2.5rem !important;
+}
+
+.card-button:where(:hover, :active),
+.list-button:where(:hover, :active) {
+  background: #ef4444 !important;
+  color: #ffffff !important;
+}
