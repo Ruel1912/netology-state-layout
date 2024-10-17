@@ -22,6 +22,7 @@ img:is(.list-image) {
 .card-button,
 .list-button {
   border: 1px solid #ef4444;
+  min-height: 2.5rem !important;
   max-height: 2.5rem !important;
 }
 
