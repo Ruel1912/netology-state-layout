@@ -8,7 +8,6 @@ const Store = () => {
   const [icon, setIcon] = useState('view_list');
 
   const onSwitch = () => {
-    console.log("change state here")
     setIcon(icon === 'view_module' ? 'view_list': 'view_module')
   };
 
